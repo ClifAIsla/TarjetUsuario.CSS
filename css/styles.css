@@ -1,0 +1,241 @@
+
+.contaner{
+    display: flex;
+    flex-direction: row;
+}
+
+.columna1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columna2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: right;
+}
+.perfilusuario{
+    border: 2px solid silver;
+    width: 550px;
+    
+}
+
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+.header{
+    background-color: rgb(4, 160, 160);
+    height: 70px;
+}
+
+.header > img{
+    width: 80px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 50%;
+    padding: 2px;
+    background-color: white;
+}
+
+.tarjetaInformacion{
+    margin-top: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.iconoUbicacion {
+    width: 10px;
+    padding: 5px;
+}
+
+.iconoConfiguracion{
+    width: 15px;
+    padding: 5px;
+}
+
+.ciudad, .linkEditar{
+    vertical-align: 7px;
+}
+
+.skillset{
+    margin-bottom: 5px;
+}
+
+.tituloUniversitario{
+    margin-top: 0;
+}
+
+/*EMPIEZA EL SEGUNDO BLOQUE*/
+.referencias {
+    border: 2px solid rgb(160, 160, 160);
+    width: 550px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.referencias>h3{
+    margin:0px;
+    background-color: rgb(51, 50, 50);
+    padding: 10px 20px;
+    color: white;
+}
+.referencias>div>.academia{
+    padding-left: 20px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fecha {
+    padding-left: 20px;
+    color: rgb(109, 112, 103);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.belts {
+    padding-left: 20px;
+    margin: 0;
+}
+
+/*EMPIEZA EL ENCABEZADO*/
+.encabezado{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 60px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado>.Titulo{
+    flex: 1;
+    color: white;
+    text-align:left;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.encabezado>.navlink>li{
+    margin-left: 40px;
+}
+.encabezado>.navlink{
+    display: 	flex;
+    flex: 5;
+    flex-direction: row;
+    color: white;
+    margin-left: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-link1, .nav-link3{
+    color: rgb(145, 120, 145);
+}
+
+.encabezado>.btn{
+    flex: 1;
+    background-color: rgb(68, 160, 196);
+    color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 5px;
+    box-shadow: 3px 3px 0px 0px rgba(0,0,0,0.99);
+    font-weight: bold;
+    align-items:center;
+    font-size: 15px;
+}
+
+/*CODIGO PARA LAS FUTURAS SOLICITUDES DE CONEXION*/
+.futura-solicitudes{
+    padding: 0px;
+    border: 2px solid rgb(160, 160, 160);
+    width: 250px;
+}
+
+.futura-solicitudes>div>h3{
+    color: white;
+    background-color: rgb(51, 50, 50);
+    background-attachment: fixed;
+    text-align:left;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 0px;
+}
+
+.iconoperfil, .posi, .nega, .posi2, .nega2 {
+    width: 25px;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+.posi {
+    margin-left: 50px;
+}
+.posi2 {
+    margin-left: 55px;
+}
+
+.mas2 {
+    width: 25px;
+    position: relative;
+    top: 6px;
+    left: -10px;
+}
+
+.solicitud1, .solicitud2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.futura-solicitudes>div>span{
+    margin-left: 5px;
+}
+
+/*CODIGO PARA TUS SOLICITUDES DE CONEXION*/
+.futura-solicitudes, .tus-solicitudes{
+    padding: 0px;
+    border: 2px solid rgb(160, 160, 160);
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.tus-solicitudes>div>h3{
+    color: white;
+    background-color: rgb(51, 50, 50);
+    background-attachment: fixed;
+    text-align:left;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 0px;
+}
+.link-final{
+    border: 2px solid rgb(160, 160, 160);
+    width: 240px;
+    margin-bottom: 20px;
+    padding: 3px 0px 3px 10px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.conexiones{
+    font-size: 20px;
+    margin: 10px 0px 10px 20px;
+}
+
+.conexiones>span{
+    margin-left: 5px;
+}
